@@ -87,3 +87,23 @@ a{
     }
   }
   
+
+  /* media query */
+  /* optimised width for smaller devices */
+  @media screen and (max-width: 700px) {
+      .section__padding{
+          padding: 4rem;
+      }
+      .section_margin{
+          margin: 4rem;
+      }
+  }
+/* For Mobile devices*/
+  @media screen and (max-width: 550px) {
+    .section__padding{
+        padding: 4rem 2rem;
+    }
+    .section_margin{
+        margin: 4rem 2rem;
+    }
+}
