@@ -1,0 +1,14 @@
+/*  " * "  <-- means all the elements will be applied once this is used */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    /* css variable so we do not have to keep on typing */
+    background: var(--color-bg);
+}
