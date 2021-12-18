@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 2rem 3rem;
 }
 
 .timur__navbar-links{
@@ -66,17 +66,17 @@
 }
 
 
-.timur__navbar-menu{
+.timur__navbar_menu{
     margin-left: 1rem;
     display: none;
     position: relative;
 }
 
-.timur__navbar-menu svg{
+.timur__navbar_menu svg{
     cursor: pointer;
 }
 
-.timur__navbar-menu_container{
+.timur__navbar_menu_container{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -92,22 +92,32 @@
     border-radius: 5px;
 }
 
-.timur__navbar-menu_container p{
+.timur__navbar_menu_container p{
     margin: 1rem 0rem;
 
 }
 /* mobile is currently set to none so its invisible */
-.timur__navbar-menu_container-links-sign{
+.timur__navbar_menu_container-links-sign{
     display: none;
 }
 
 /* media query compatabilaty for different screen sizes */
 /* hides the desktop nav menu at 1050 px(tablets) */
 @media screen and (max-width: 1050px) {
-    .timur__navbar-menu_container{
+    .timur__navbar_menu_container{
         display: none;
     }
-    .timur__navbar-menu{
+    .timur__navbar_menu{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .timur__navbar_menu_container{
+        display: none;
+    }
+    .timur__navbar_menu{
         display: flex;
     }
 }

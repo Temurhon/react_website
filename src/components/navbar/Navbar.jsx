@@ -53,7 +53,7 @@ const Navbar = () => {
         {/* if the menu is toggled, only if this the variable is true(hence the && sign), then display the div */}
         {toggleMenu &&(
 
-            <div className='timur__navbar-menu_container scaleup-center'>
+            <div className='timur__navbar-menu_container scale-up-center'>
                 {/* menu for the mobile which will be rendered if the toggle menu is set to true */}
                 <div className='timur__navbar-menu_container-links'>
                
