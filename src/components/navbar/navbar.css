@@ -1,0 +1,50 @@
+.timur__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.timur__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.timur__navbar-links_logo{
+    margin-right: 2rem;
+}
+
+.timur__navbar-links_logo img{
+    width: 62px;
+    height: 16px;
+}
+
+.timur__navbar-links_container{
+    display: flex;
+    /* this will allow the links to go in a row form instead of collumn */
+    flex-direction: row;
+}
+
+.timur__navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* changes the font properties such as colour and style on the nav bar */
+.timur__navbar-links_container p, 
+.timur__navbar-sign p,
+.timur__navbar-menu_container p{
+    color:#fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+/* 1st parameter: top and bottom 2nd parameter: left and right */
+    margin: 0 1em;
+    cursor: pointer;
+
+}
