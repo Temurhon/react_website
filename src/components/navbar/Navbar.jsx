@@ -8,6 +8,16 @@ import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 //importing logo from assets folder
 import logo from '../../assets/logo.png'
 
+// this function will be used to return the menu (links), which will be wrapped with react fragment.
+const Menu = () =>(
+    <>
+    <p><a href='#home'>Home</a></p>
+    <p><a href='#what'>What is timur</a></p>
+    <p><a href='#possibility'>Open AI</a></p>
+    <p><a href='#features'>Case Studies</a></p>
+    <p><a href='#blog'>Library</a></p>
+    </>
+)
 
 const Navbar = () => {
 
@@ -24,11 +34,7 @@ const Navbar = () => {
                     <img src={logo} alt='logo'/>
                 </div>
                     <div className='timur__navbar-links_container'>
-                        <p><a href='#home'>Home</a></p>
-                        <p><a href='#what'>What is timur</a></p>
-                        <p><a href='#possibility'>Open AI</a></p>
-                        <p><a href='#features'>Case Studies</a></p>
-                        <p><a href='#blog'>Library</a></p>
+                <Menu />
                     </div>       
            </div>
 
@@ -43,7 +49,31 @@ const Navbar = () => {
         {toggleMenu
              ?<RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
              :<RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)}/>
-            }
+        }
+        {/* if the menu is toggled, only if this the variable is true(hence the && sign), then display the div */}
+        {toggleMenu &&(
+
+            <div className='timur__navbar-menu_container scaleup-center'>
+                {/* menu for the mobile which will be rendered if the toggle menu is set to true */}
+                <div className='timur__navbar-menu_container-links'>
+               
+               
+               
+                <Menu />
+
+                <div className='timur__navbar-menu_container-links-sign'>
+                     <p>Sign In</p>
+                     <button type = "button">Sign Up</button>
+
+                </div>
+
+                </div>
+                
+            </div>
+
+        )
+
+        }
 
         </div>
 
