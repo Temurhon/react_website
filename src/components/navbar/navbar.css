@@ -40,11 +40,27 @@
     color:#fff;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 25px;
     text-transform: capitalize;
 /* 1st parameter: top and bottom 2nd parameter: left and right */
     margin: 0 1em;
     cursor: pointer;
 
+}
+
+.timur__navbar-sign button,
+.timur__navbar-menu_container button{
+
+    padding: 0.2rem 0.5rem;
+    color: white;
+    background: #FF4820;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }

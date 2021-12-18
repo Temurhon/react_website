@@ -23,11 +23,17 @@ const Navbar = () => {
                         <p><a href='#possibility'>Open AI</a></p>
                         <p><a href='#features'>Case Studies</a></p>
                         <p><a href='#blog'>Library</a></p>
-                    </div>
-
-               
+                    </div>       
            </div>
+
+        <div className='timur__navbar-sign'>
+            <p>Sign In</p>
+            <button type = "button">Sign Up</button>
+
         </div>
+
+        </div>
+        
     )
 }
 
