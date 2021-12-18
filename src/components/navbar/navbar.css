@@ -113,11 +113,18 @@
 }
 
 
-@media screen and (max-width: 1050px) {
-    .timur__navbar_menu_container{
-        display: none;
+@media screen and (max-width: 700px) {
+    .timur__navbar{
+        padding: 2rem 4rem;
     }
-    .timur__navbar_menu{
-        display: flex;
+}
+
+
+@media screen and (max-width: 550px) {
+    .timur__navbar{
+        padding: 2rem;
+    }
+    .timur__navbar-sign{
+        display: none;
     }
 }
