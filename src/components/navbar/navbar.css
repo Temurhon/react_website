@@ -76,7 +76,7 @@
     cursor: pointer;
 }
 
-.timur__navbar_menu_container{
+.timur__navbar-menu_container{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
