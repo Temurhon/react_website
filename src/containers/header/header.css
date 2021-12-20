@@ -1,0 +1,115 @@
+/* Everything in this div will appear in 1 row */
+.timur__header{
+    display: flex;
+}
+
+/* Contains everything inside the header Container */
+.timur__header-content{
+    flex: 1;
+    display: flex;
+    /* center everything */
+    justify-content: center;
+    align-items: flex-start;
+    /* every div is coming below one another */
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+/* Styling the main h1 content */
+.timur__header-content h1{
+    font-family: var(--font-family);
+    /* bolder weight */
+    font-weight: 800;
+
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+    letter-spacing: -0.04em;
+}
+
+/* For the paragraph now */
+.timur__header-content p{
+
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: var(--color-text);
+margin-top: 1.5rem;
+}
+
+/* Position of the inputs */
+.timur__header-content__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+/* Stlying the inputs */
+.timur__header-content__input input{
+flex: 2;
+width: 100%;
+min-height: 50px;
+background: var(--color-footer);
+border: 2px solid var(--color-footer);
+padding: 0 1rem;
+outline: none;
+font-family: var(--font-family);
+font-size: 20px;
+line-height: 27px;
+color: #fff;
+
+/* border styling of bottom right and top right */
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+/* Styling the button */
+.timur__header-content__input button{
+    background: #FF4820;
+    /* button will take up more space */
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    color: #FFFFFF;
+    border: none;
+
+    /* border styling of bottom right and top right */
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+/* Small Peoples Div Styling */
+.timur__header-content__people{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Styling the Peoples Icon Styling */
+.timur__header-content__people img{
+    width: 170px;
+    height: 40px;
+}
+/* Styling the Peoples paragraph Styling */
+.timur__header-content__people p{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 38px;
+}
