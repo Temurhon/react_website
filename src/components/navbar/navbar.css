@@ -104,7 +104,7 @@
 /* media query compatabilaty for different screen sizes */
 /* hides the desktop nav menu at 1050 px(tablets) */
 @media screen and (max-width: 1050px) {
-    .timur__navbar_menu_container{
+    .timur__navbar-links_container{
         display: none;
     }
     .timur__navbar_menu{
@@ -127,4 +127,13 @@
     .timur__navbar-sign{
         display: none;
     }
+
+    .timur__navbar-menu_container{
+        top:20px;
+    }
+
+    .timur__navbar_menu_container-links-sign{
+        display: block;
+    }
+
 }
