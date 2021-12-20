@@ -59,13 +59,13 @@ const Navbar = () => {
                
                
                
-                <Menu />
+                        <Menu />
 
-                <div className='timur__navbar-menu_container-links-sign'>
-                     <p>Sign In</p>
-                     <button type = "button">Sign Up</button>
+                    <div className='timur__navbar_menu_container-links-sign'>
+                        <p>Sign In</p>
+                        <button type = "button">Sign Up</button>
 
-                </div>
+                    </div>
 
                 </div>
                 
