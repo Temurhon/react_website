@@ -71,11 +71,11 @@
     display: none;
     position: relative;
 }
-
+/* cursor pointer shows on hover */
 .timur__navbar_menu svg{
     cursor: pointer;
 }
-
+/* mobile navigation */
 .timur__navbar-menu_container{
     display: flex;
     justify-content: flex-end;
