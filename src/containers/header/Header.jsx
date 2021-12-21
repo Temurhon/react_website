@@ -26,15 +26,13 @@ const Header = () => {
                         {/* Description */}
                         <p>1,600 people requested access a visit in last 24 hours</p>
                     </div>
-
-                    {/* Icon of that AI MAN */}
-                    <div className='timur__header-image'>
-
-                        <img src={ai} alt="AI" />
-
-                    </div>
-
             </div>
+                                {/* Icon of that AI MAN */}
+                                <div className='timur__header-image'>
+
+                                    <img src={ai} alt="AI" />
+
+                                </div>
         </div>
     )
 }
