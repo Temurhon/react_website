@@ -10,7 +10,7 @@ const Feature = ({title,text}) => {
             <h1>{title}</h1>
            </div>
            <div className='timur__features-container__feature-text'>
-              <p>{text}</p>
+              <p>{text}</p> 
               </div>
         </div>
         
