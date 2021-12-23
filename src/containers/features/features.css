@@ -1,0 +1,40 @@
+.timur__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.timur__features-heading{
+    /* left: 140px;
+top: 1940px;*/
+ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+
+.timur__features-heading h1{
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+}
+
+
+.timur__features-heading p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-top: 2rem;
+}
