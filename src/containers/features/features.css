@@ -38,3 +38,31 @@ line-height: 45px;
     color: #FF8A71;
     margin-top: 2rem;
 }
+
+/* .timur__features-container{
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+} */
+
+
+
+@media screen and (max-width: 990px){
+    .timur__features{
+        flex-direction: column;
+    }
+
+    .timur__features-heading{
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .timur__features-heading h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+}
