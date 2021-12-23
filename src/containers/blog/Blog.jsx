@@ -5,7 +5,7 @@ import { Article } from '../../components';
 import './blog.css';
 
 // importing all the images from the imports.js
-import {blog01,blog02,blog03,blog04,blog05,} from './imports';
+import {blog01,blog02,blog03,blog04,blog05} from './imports';
 
 const Blog = () => {
     return (
@@ -17,14 +17,14 @@ We are blogging about it.</h1>
             {/* structure for the articles */}
             <div className='timur__blog-container'>
                 <div className='timur__blog-container_groupa'>
-                <Article/>
+                <Article imgUrl={blog01} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
                 </div>
 
                 <div className='timur__blog-container_groupb'>
-                <Article/>
-                <Article/>
-                <Article/>
-                <Article/>
+                <Article imgUrl={blog02} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+                <Article imgUrl={blog03} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+                <Article imgUrl={blog04} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+                <Article imgUrl={blog05} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
                 </div>
             </div>
         </div>
