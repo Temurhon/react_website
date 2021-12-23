@@ -47,6 +47,8 @@ height: 100%;
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
+    /* spacing between the heading and p tags */
+    margin: 1rem 0;
 }
 
 .timur__possibility-content p{
@@ -55,4 +57,18 @@ height: 100%;
     line-height: 30px;
     color: var(--color-text);
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .timur__possibility{
+        /* the image goes above the content */
+        flex-direction: column;
+    }
+    .timur__possibility-image{
+        /* space it out about */
+        margin: 1rem 0;
+    }
+    .timur__possibility-content{
+        margin-top: 2rem;
+    }
 }
