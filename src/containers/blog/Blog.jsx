@@ -16,11 +16,11 @@ We are blogging about it.</h1>
             </div>
             {/* structure for the articles */}
             <div className='timur__blog-container'>
-                <div className='timur__blog-container_groupa'>
+                <div className='timur__blog-container_groupA'>
                 <Article imgUrl={blog01} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
                 </div>
 
-                <div className='timur__blog-container_groupb'>
+                <div className='timur__blog-container_groupB'>
                 <Article imgUrl={blog02} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
                 <Article imgUrl={blog03} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
                 <Article imgUrl={blog04} date="Sept 26, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
