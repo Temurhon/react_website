@@ -20,11 +20,24 @@ background: var(--color-footer);
 }
 
 
-.timur__blog-container_article-content{
+.timur__blog-container_article-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     padding: 1rem 1.5rem;
     height: 100%;
+}
+
+
+.timur__blog-container_article-content p{
+
+}
+
+.timur__blog-container_article-content h3{
+
+}
+/* it will style the part where it says: read full article */
+.timur__blog-container_article-content p:last-child{
+
 }
